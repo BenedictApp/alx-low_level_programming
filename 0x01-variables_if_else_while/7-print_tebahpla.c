@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-	for (int lowerCase = 122 ; lowerCase >= 97 ; lowerCase--)
+	int lowerCase = 122;
 
-		putchar(lowerCase);
+		while (lowerCase >= 97)
+		{
+			putchar(lowerCase);
+			lowerCase--;
+		}
 
 	putchar('\n');
 	return (0);
