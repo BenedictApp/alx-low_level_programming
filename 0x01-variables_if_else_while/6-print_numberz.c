@@ -6,10 +6,14 @@
  */
 int main(void)
 {
-	for (int startNumber = 0; startNumber <= 9; startNumber++)
+	int startNumber = 0;
+
+	while (startNumber <= 9)
 	{
 		putchar(startNumber + 48);
+		startNumber++;
 	}
+
 	putchar('\n');
 	return (0);
 }
