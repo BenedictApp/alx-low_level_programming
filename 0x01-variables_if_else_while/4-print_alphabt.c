@@ -10,7 +10,7 @@ int main(void)
 
 	while (lowerCase <= 122)
 	{
-		if (lowerCase == 101 || 113)
+		if (lowerCase == 113 || 101)
 		{
 			lowerCase++;
 			continue;
