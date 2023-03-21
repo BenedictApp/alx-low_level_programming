@@ -1,1 +1,1 @@
-project on c-functions, nested loops
+ C - functions, nested loops
