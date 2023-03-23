@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*@c:The character to print
+*_isupper - print ut uppercase characters
+*
+*@c:the character to print
 *
 *_putchar:print the character to stdout
-*
-*_isupper - the function to print uppercase character
 *
 *Return:return (1) if c uppercase or (0) otherwise
  */
