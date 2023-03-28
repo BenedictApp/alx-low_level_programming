@@ -2,23 +2,24 @@
 /**
 *print_rev - print a string in reverse order
 *
-*@s: sring character to print
+*@s: string character to print
 *
 *Return: nothing
 */
 void print_rev(char *s)
 {
-	int i;
+	int eachElement;
 
 	int count = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (eachElement = 0; s[eachElement] != '\0'; eachElement++)
 	{
 		count++;
 	}
-	for (i = count; i >= 0; i--)
+	for (eachElement = count; eachElement >= 0; eachElement--)
 	{
-		_putchar(s[i]);
+		_putchar(s[eachElement]);
 	}
 	_putchar('\n');
+
 }
