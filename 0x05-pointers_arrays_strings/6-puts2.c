@@ -1,10 +1,8 @@
 #include "main.h"
 /**
   *puts2 - print a string
-  *
   *@str:the string to print
-  *
-  *Return: nothing
+  *Return: 0
   */
 void puts2(char *str)
 {
