@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  *puts2 - print every character of a string
+  *puts2 - print a string
   *
-  *@str: string of characters to print
+  *@str:the string to print
   *
   *Return: nothing
   */
