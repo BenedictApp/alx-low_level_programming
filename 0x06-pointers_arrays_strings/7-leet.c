@@ -4,13 +4,11 @@
   *
   *@n: string to be encoded
   *
-  *Return: str
+  *Return: n
   */
 char *leet(char *n)
 {
-	int i;
-
-	int j;
+	int i, j;
 
 	char s1[] = "aAeEoOtTtlL";
 
