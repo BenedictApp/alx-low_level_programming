@@ -11,21 +11,25 @@
   */
 char *_strncat(char *dest, char *src, int n)
 {
-	int dest_length = 0;
-
-	int src_length = 0;
-
 	int i;
 
-	for (i = 0; dest[i] != '\0'; i++)/*finding the length of dest string*/
-		dest_length++;
+	int j;
 
-	for (i = 0; src[i] != '\0'; i++)/*finding the length of src string*/
-		src_length++;
-	for (i = 0; i < n; i++)
+	i = 0;
+
+	while (dest[i] != '\0')
 	{
-
-	dest[dest_length + i] = src[i];/*cat. @n src string to dest string*/
+		i++;
 	}
+	j = 0;
+
+	while (j < n && src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
+
 	return (dest);
 }
