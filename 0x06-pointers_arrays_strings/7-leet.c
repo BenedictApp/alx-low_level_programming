@@ -12,15 +12,15 @@ char *leet(char *str)
 
 	int j;
 
-	char *a = "aAeEoOtTtlL";
+	char s1[] = "aAeEoOtTtlL";
 
-	char *b = "4433007711";
+	char s2[] = "4433007711";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; a[j] != '\0'; j++)
-			if (str[i] == a[j])
-				str[i] = b[j];
+		for (j = 0; j < 10; j++)
+			if (str[i] == s1[j])
+				str[i] = s2[j];
 
 	}
 
