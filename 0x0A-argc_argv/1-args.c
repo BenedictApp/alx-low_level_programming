@@ -2,9 +2,9 @@
 /**
   *main - print the name of arg
   *
-  *argc: argument count
+  *@argc: argument count
   *
-  *argv: argument vector
+  *@argv: argument vector
   *
   *Return: always 0
   */
